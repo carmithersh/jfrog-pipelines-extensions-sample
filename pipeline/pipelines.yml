@@ -4,6 +4,8 @@ resources:
     configuration:
       path: carmithersh/jfrog-pipelines-extensions-sample    # <-- Change to your repository path
       gitProvider: mygithub1                                    # <-- Change to your GitHub integration
+      branches:
+        include: master
       
   - name: MyTest
     type: tutorials/test
